@@ -1,75 +1,86 @@
-# Hi, I'm Vladislav 👋
+<p align="center">
+  <img src="./terrafleet-banner.png" alt="TerraFleet Banner" width="100%">
+</p>
 
-### Engineer. Learning Swift. Building TerraFleet.
+<h1 align="center">Hi, I'm Vladislav 👋</h1>
 
-Creating software for real machines.
+<p align="center">
+Engineer • Building <strong>TerraFleet</strong> • Learning Swift every day
+</p>
 
----
-
-## Why I'm Here
-
-Programming wasn't part of my original career.
-
-I'm an engineer who has spent years working with heavy equipment, solving practical problems in the field.
-
-I decided to learn software development because I wanted to build better tools for people who work with machines every day.
-
-TerraFleet is the result of that journey.
+<p align="center">
+<i>Built by an engineer. Designed for engineers.</i>
+</p>
 
 ---
 
-## 🚜 Current Project
+# 🚜 TerraFleet
 
-# TerraFleet
+**TerraFleet** is a native macOS application for managing heavy and construction equipment.
 
-Fleet management software for transport and heavy equipment.
+It combines equipment records, maintenance, repairs, operators, documents, maps, photos and analytics into one clean workspace.
 
-Designed by an engineer for engineers.
+> **Everything about your equipment. In one place.**
 
-### Current Goals
+---
 
-- Native macOS application
+# ✨ Current Features
+
 - Equipment database
 - Repair journal
-- OCR photo recognition
+- Operators
+- Documents
+- Photo storage
+- OCR import
+- Fleet analytics
 - Offline-first architecture
-- Maps
-- Analytics
-- AI assistant
 
 ---
 
-## 🌱 Currently Learning
+# 🛠 Tech Stack
 
 - Swift
 - SwiftUI
-- Git & GitHub
+- Xcode
+- macOS
+- JSON
+- Vision OCR
+
+---
+
+# 🚧 Current Status
+
+TerraFleet is under active development.
+
+Current focus:
+
+- Better Equipment Management
+- Repair Workflow
+- Offline Maps
+- OCR Improvements
+- Analytics
+- AI Assistant
+
+---
+
+# 📚 Learning
+
+While building TerraFleet I'm learning:
+
+- Swift
+- SwiftUI
 - macOS Development
+- Software Architecture
+- Product Design
 
 ---
 
-## 💡 My Philosophy
+# 🎯 Vision
 
-> Build software that solves real problems.
-
-Every commit teaches me something new.
-
-Every improvement makes TerraFleet better.
+Build software that engineers enjoy using every day.
 
 ---
 
-## 🗺 Roadmap
+# 📍 Philosophy
 
-| Feature | Status |
-|---------|:------:|
-| Equipment Database | ✅ |
-| Repair Journal | ✅ |
-| OCR Import | ✅ |
-| Analytics | 🚧 |
-| Offline Maps | 🚧 |
-| AI Assistant | 📅 |
-| iPhone Version | 📅 |
-
----
-
-### Thank you for visiting my profile.
+> Great engineering deserves great software.
