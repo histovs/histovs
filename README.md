@@ -6,13 +6,36 @@ Creating software for real machines.
 
 ---
 
+## Why I'm Here
+
+Programming wasn't part of my original career.
+
+I'm an engineer who has spent years working with heavy equipment, solving practical problems in the field.
+
+I decided to learn software development because I wanted to build better tools for people who work with machines every day.
+
+TerraFleet is the result of that journey.
+
+---
+
 ## 🚜 Current Project
 
-**TerraFleet**
+# TerraFleet
 
-A macOS application for transport and heavy equipment management.
+Fleet management software for transport and heavy equipment.
 
-Built by an engineer for engineers.
+Designed by an engineer for engineers.
+
+### Current Goals
+
+- Native macOS application
+- Equipment database
+- Repair journal
+- OCR photo recognition
+- Offline-first architecture
+- Maps
+- Analytics
+- AI assistant
 
 ---
 
@@ -27,6 +50,26 @@ Built by an engineer for engineers.
 
 ## 💡 My Philosophy
 
-> Learn by building.
+> Build software that solves real problems.
 
 Every commit teaches me something new.
+
+Every improvement makes TerraFleet better.
+
+---
+
+## 🗺 Roadmap
+
+| Feature | Status |
+|---------|:------:|
+| Equipment Database | ✅ |
+| Repair Journal | ✅ |
+| OCR Import | ✅ |
+| Analytics | 🚧 |
+| Offline Maps | 🚧 |
+| AI Assistant | 📅 |
+| iPhone Version | 📅 |
+
+---
+
+### Thank you for visiting my profile.
