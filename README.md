@@ -1,99 +1,199 @@
-<p align="center">
-  <img src="./terrafleet-banner.png" alt="TerraFleet Banner" width="100%">
-</p>
+<div align="center">
 
-<h1 align="center">Hi, I'm Vladislav 👋</h1>
+# TerraFleet
 
-<p align="center">
-  Engineer building <strong>TerraFleet</strong>
-</p>
+### Everything about your equipment. In one place.
 
-<p align="center">
-  Learning Swift one commit at a time.
-</p>
+A modern fleet management platform for construction and heavy equipment.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Swift-Learning-F05138?logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/SwiftUI-macOS-0A84FF?logo=apple&logoColor=white" alt="SwiftUI">
-  <img src="https://img.shields.io/badge/Xcode-Development-147EFB?logo=xcode&logoColor=white" alt="Xcode">
-  <img src="https://img.shields.io/badge/TerraFleet-Active%20Development-77C043" alt="TerraFleet status">
-</p>
+![TerraFleet Banner](.github/assets/banner.png)
+
+![Platform](https://img.shields.io/badge/macOS-15%2B-black?style=for-the-badge&logo=apple)
+![Swift](https://img.shields.io/badge/Swift-6-orange?style=for-the-badge&logo=swift)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-Native-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Development-2E8B57?style=for-the-badge)
+
+</div>
 
 ---
 
-## About Me
+## Overview
 
-I am an engineer with technical and economic education, currently developing practical software for heavy and construction equipment management.
+TerraFleet is a modern fleet management platform designed for construction and heavy equipment.
 
-My main project is **TerraFleet** — a native macOS application designed to bring equipment records, repairs, operators, documents, photos, maps and analytics into one clear workspace.
+It combines equipment records, repair history, warehouse inventory, documents, maps, analytics and intelligent workflows in one application.
 
-I am learning software development by building a real product step by step.
-
----
-
-## TerraFleet
-
-> **Everything about your equipment. In one place.**
-
-TerraFleet is being built for engineers, mechanics, fleet managers and people responsible for real machines and real operations.
-
-### Current capabilities
-
-- Equipment database
-- Repair and maintenance journal
-- Operator records
-- Equipment photos
-- OCR import from images
-- Local offline storage
-- Fleet status analytics
-- Technical documents
-- Work locations and maps
+TerraFleet is being developed with an offline-first approach, allowing essential fleet information to remain available even without an internet connection.
 
 ---
 
-## Tech Stack
+## Core Features
 
-<p>
-  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
-  <img src="https://img.shields.io/badge/SwiftUI-0A84FF?style=for-the-badge&logo=apple&logoColor=white" alt="SwiftUI">
-  <img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white" alt="Xcode">
-  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
-  <img src="https://img.shields.io/badge/Vision-OCR-6E6E73?style=for-the-badge&logo=apple&logoColor=white" alt="Vision OCR">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
-
----
-
-## Current Focus
-
-- Building a reliable equipment database
-- Improving repair workflows
-- Developing offline maps
-- Expanding OCR import
-- Creating clear fleet analytics
-- Learning Swift and SwiftUI
+| Module | Description |
+|---|---|
+| Equipment | Fleet inventory, identification, status and machine history |
+| Repairs | Failures, maintenance records, costs and downtime |
+| Warehouse | Spare parts, materials and stock movement |
+| Documents | Manuals, inspections, reports and technical files |
+| Maps | Equipment locations, work sites and routes |
+| OCR Import | Create equipment and repair records from photographs |
+| Analytics | Fleet condition, costs, downtime and performance |
+| AI Assistant | Intelligent analysis and operational recommendations |
 
 ---
 
-## Development Philosophy
+## Design Principles
 
-> **Built by an engineer. Designed for engineers.**
+TerraFleet is built around a small set of product principles:
 
-> **Great engineering deserves great software.**
-
-I believe software should make work clearer, calmer and more reliable.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=histovs&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=histovs&layout=compact&theme=github_dark&hide_border=true" alt="Most used languages">
-</p>
+- Clean and focused interface
+- Offline-first operation
+- Fast navigation
+- Privacy-focused local storage
+- Native Apple platform experience
+- Modern and maintainable Swift architecture
+- Minimal actions for common operational tasks
 
 ---
 
-<p align="center">
-  <strong>TerraFleet is under active development.</strong>
-</p>
+## Screenshots
+
+Real application screenshots will be added as development progresses.
+
+| Dashboard | Equipment | Repairs |
+|---|---|---|
+| Coming soon | Coming soon | Coming soon |
+
+---
+
+## Architecture
+
+```text
+TerraFleet
+│
+├── Dashboard
+│
+├── Equipment
+│   ├── Equipment records
+│   ├── Operators
+│   ├── Photos
+│   └── Change history
+│
+├── Repairs
+│   ├── Repair journal
+│   ├── Status tracking
+│   ├── Costs
+│   └── Downtime
+│
+├── Warehouse
+│   ├── Spare parts
+│   └── Inventory movement
+│
+├── Documents
+│
+├── Maps
+│
+├── OCR Import
+│
+├── Analytics
+│
+└── AI Assistant
+```
+
+---
+
+## Development Roadmap
+
+### Completed
+
+- [x] SwiftUI application structure
+- [x] Sidebar navigation
+- [x] Equipment model
+- [x] Equipment local storage
+- [x] Equipment detail view
+- [x] Photo storage foundation
+- [x] OCR foundation
+- [x] Repair model
+- [x] Repair journal foundation
+- [x] Repair local storage
+
+### In Progress
+
+- [ ] Complete repair store integration
+- [ ] Equipment and repair synchronization
+- [ ] Dashboard repair statistics
+- [ ] Equipment photo editing
+- [ ] Repair OCR import
+- [ ] Warehouse module
+- [ ] Documents module
+- [ ] Offline maps
+
+### Planned
+
+- [ ] Advanced analytics
+- [ ] AI-assisted diagnostics
+- [ ] Maintenance scheduling
+- [ ] Cloud synchronization
+- [ ] Mobile companion application
+- [ ] Telemetry integration
+- [ ] Multi-user access
+
+---
+
+## Technology
+
+TerraFleet currently uses:
+
+- Swift
+- SwiftUI
+- Observation
+- Vision
+- Codable
+- JSON local storage
+- App Support file storage
+- Native macOS frameworks
+
+Planned technologies include:
+
+- MapKit or an offline mapping engine
+- Swift Charts
+- Cloud synchronization
+- Mobile platform support
+
+---
+
+## Product Philosophy
+
+> Every click should matter.
+
+TerraFleet is designed around real operational workflows rather than complex database forms.
+
+The goal is to provide fleet managers, mechanics and equipment operators with the information they need using the fewest practical actions.
+
+---
+
+## Project Status
+
+TerraFleet is currently under active development.
+
+The application structure, equipment database, OCR foundation and repair journal are already being implemented.
+
+The public repository will gradually receive updated screenshots, documentation and release information.
+
+---
+
+## Author
+
+<div align="center">
+
+Designed and developed by
+
+**Vladislav Mikheenko**
+
+</div>
+
+---
+
+## License
+
+A project license will be selected before the first public release.
